@@ -1,0 +1,12 @@
+Following are the requirements needed for this project
+Installation
+1)Python 2.7 or higher 
+2)Cassandra DB
+3)Installation through pip is recommended:
+
+$ pip install cassandra-driver
+
+
+Create the Schema for DB
+
+create keyspace bargaindeal with replication={'class':'SimpleStrategy', 'replication_factor':1};
